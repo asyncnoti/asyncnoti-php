@@ -1,0 +1,30 @@
+{
+  "name": "asyncnoti/asyncnoti-php",
+  "description": "PHP library provide Asyncnoti API",
+  "license": "MIT",
+  "type": "library",
+  "keywords": [
+    "php",
+    "asyncnoti",
+    "websocket",
+    "realtime"
+  ],
+  "authors": [
+    {
+      "name": "Asyncnoti",
+      "email": "admin@asyncnoti.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.2.0",
+    "ext-curl": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "3.7.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Asyncnoti\\": "src"
+    }
+  }
+}
